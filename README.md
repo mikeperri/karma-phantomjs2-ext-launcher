@@ -7,6 +7,13 @@
 
 > Launcher for [PhantomJS].
 
+## Motivation
+You might want to use this package if you are getting an error like this:
+```ERROR [launcher]: PhantomJS crashed.```
+when running a lot of tests at once.
+
+This Karma launcher uses a different version of PhantomJS [phantomjs2-ext](https://www.npmjs.com/package/phantomjs2-ext) which doesn't seem to have that issue.
+
 ## Installation
 
 The easiest way is to keep `karma-phantomjs-launcher` as a devDependency in your `package.json`,
