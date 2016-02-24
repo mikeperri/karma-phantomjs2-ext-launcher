@@ -1,6 +1,6 @@
 {
   "name": "karma-phantomjs2-ext-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Karma plugin. Launcher using the phantomjs2-ext package. Using this version of phantom instead of phantomjs-prebuilt appears to fix out-of-memory issues when running a lot of tests at once.",
   "main": "index.js",
   "scripts": {
