@@ -1,27 +1,27 @@
 {
-  "name": "karma-phantomjs-launcher",
+  "name": "karma-phantomjs2-ext-launcher",
   "version": "1.0.0",
-  "description": "A Karma plugin. Launcher for PhantomJS.",
+  "description": "A Karma plugin. Launcher using the phantomjs2-ext package.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/karma-runner/karma-phantomjs-launcher.git"
+    "url": "git://github.com/mikeperri/karma-phantomjs-launcher.git"
   },
   "keywords": [
     "karma-plugin",
     "karma-launcher",
     "phantomjs"
   ],
-  "author": "Vojta Jina <vojta.jina@gmail.com>",
+  "author": "Mike Perri <me@michaeljperri.com>",
   "dependencies": {
-    "lodash": "^4.0.1"
+    "lodash": "^4.0.1",
+    "phantomjs2-ext": "^0.2.2"
   },
   "peerDependencies": {
-    "karma": ">=0.9",
-    "phantomjs-prebuilt": ">=1.9"
+    "karma": ">=0.9"
   },
   "license": "MIT",
   "devDependencies": {
@@ -60,6 +60,7 @@
     "Mark Derbecker <mark.derbecker@seeq.com>",
     "Nick Malaguti <nmalaguti@palantir.com>",
     "Rob Barreca <rob.barreca@inmobi.com>",
-    "nherzing <nherzing@gmail.com>"
+    "nherzing <nherzing@gmail.com>",
+    "Vojta Jina <vojta.jina@gmail.com>"
   ]
 }
